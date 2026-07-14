@@ -1,4 +1,4 @@
-# CJ Gates Auckland Static Website
+# CIL Static Website
 
 Static bilingual website built for GitHub Pages.
 

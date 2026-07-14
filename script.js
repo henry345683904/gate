@@ -22,10 +22,10 @@ const translations = {
     "hero.quote": "Get a Quote",
     "hero.services": "Our Services",
     "hero.note": "Locally operated specialists serving Auckland, Waikato and Bay of Plenty.",
-    "intro.eyebrow": "Welcome to CJ Gates NZ",
+    "intro.eyebrow": "Welcome to CIL",
     "intro.title": "Quality gates built around your property.",
-    "intro.body1": "CJ Gates designs, fabricates and installs gates that suit the way your entry needs to work. The team handles electric gate systems, aluminium and steel fabrication, driveway access, pedestrian gates and custom projects for residential and commercial sites.",
-    "intro.body2": "Based in East Auckland, the crew works across Auckland and wider nearby regions with a focus on durable materials, practical automation and a clean finish.",
+    "intro.body1": "CIL designs, fabricates and installs gates that suit the way your entry needs to work. The team handles electric gate systems, aluminium and steel fabrication, driveway access, pedestrian gates and custom projects for residential and commercial sites.",
+    "intro.body2": "Based at 5 greenmount dr, the crew works across Auckland and wider nearby regions with a focus on durable materials, practical automation and a clean finish.",
     "intro.link": "Request a free quote",
     "services.eyebrow": "Our Services",
     "services.title": "Gates, fencing, automation and more",
@@ -44,7 +44,7 @@ const translations = {
     "service.read": "Read More",
     "why.eyebrow": "Why Choose Us",
     "why.title": "Built for Auckland properties and real daily use.",
-    "why.body": "The work starts with site conditions, security needs and the look of the property. From there, CJ Gates recommends the right material, gate movement and automation setup so the finished entry feels natural to use.",
+    "why.body": "The work starts with site conditions, security needs and the look of the property. From there, CIL recommends the right material, gate movement and automation setup so the finished entry feels natural to use.",
     "why.point1.title": "Local Experience",
     "why.point1.body": "Knowledge of Auckland driveways, coastal conditions, mixed terrain and busy access points.",
     "why.point2.title": "Custom Fabrication",
@@ -101,13 +101,13 @@ const translations = {
     "form.service.repairs": "Repairs or Automation",
     "form.message": "Message",
     "form.submit": "Submit Quote Request",
-    "footer.body": "Gate design, fabrication, automation and installation from East Auckland.",
+    "footer.body": "Gate design, fabrication, automation and installation from 5 greenmount dr.",
     "footer.touch": "Get in Touch",
-    "footer.location": "East Auckland, New Zealand",
+    "footer.location": "5 greenmount dr",
     "footer.links": "Quick Links",
     "footer.about": "About Us",
     "footer.contact": "Contact Us",
-    "footer.copy": "(c) CJ Gates 2026. All rights reserved.",
+    "footer.copy": "(c) CIL 2026. All rights reserved.",
     "form.success": "Thanks. Your quote request has been prepared."
   },
   zh: {
@@ -122,10 +122,10 @@ const translations = {
     "hero.quote": "获取报价",
     "hero.services": "查看服务",
     "hero.note": "本地运营团队，服务奥克兰、怀卡托和丰盛湾地区。",
-    "intro.eyebrow": "欢迎来到 CJ Gates NZ",
+    "intro.eyebrow": "欢迎来到 CIL",
     "intro.title": "为您的物业量身打造大门。",
-    "intro.body1": "CJ Gates 设计、制造并安装适合不同入口需求的大门。团队可处理电动门系统、铝制与钢制加工、车道入口、人行门以及住宅和商业定制项目。",
-    "intro.body2": "我们位于东奥克兰，服务奥克兰及周边地区，注重耐用材料、实用自动化和整洁的完工效果。",
+    "intro.body1": "CIL 设计、制造并安装适合不同入口需求的大门。团队可处理电动门系统、铝制与钢制加工、车道入口、人行门以及住宅和商业定制项目。",
+    "intro.body2": "我们位于 5 greenmount dr，服务奥克兰及周边地区，注重耐用材料、实用自动化和整洁的完工效果。",
     "intro.link": "申请免费报价",
     "services.eyebrow": "我们的服务",
     "services.title": "大门、围栏、自动化及更多服务",
@@ -201,13 +201,13 @@ const translations = {
     "form.service.repairs": "维修或自动化",
     "form.message": "留言",
     "form.submit": "提交报价请求",
-    "footer.body": "来自东奥克兰的大门设计、制造、自动化和安装服务。",
+    "footer.body": "来自 5 greenmount dr 的大门设计、制造、自动化和安装服务。",
     "footer.touch": "联系我们",
-    "footer.location": "新西兰东奥克兰",
+    "footer.location": "5 greenmount dr",
     "footer.links": "快速链接",
     "footer.about": "关于我们",
     "footer.contact": "联系我们",
-    "footer.copy": "(c) CJ Gates 2026. 版权所有。",
+    "footer.copy": "(c) CIL 2026. 版权所有。",
     "form.success": "谢谢，您的报价请求已准备提交。"
   }
 };
@@ -219,7 +219,7 @@ function applyLanguage(lang) {
   currentLang = translations[lang] ? lang : "en";
   document.documentElement.lang = currentLang === "zh" ? "zh-CN" : "en";
   document.body.classList.toggle("lang-zh", currentLang === "zh");
-  document.title = currentLang === "zh" ? "奥克兰大门 | CJ Gates NZ" : "Gates Auckland | CJ Gates NZ";
+  document.title = currentLang === "zh" ? "奥克兰大门 | CIL" : "Gates Auckland | CIL";
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.dataset.i18n;
