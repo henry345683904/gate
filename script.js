@@ -107,7 +107,7 @@ const translations = {
     "footer.links": "Quick Links",
     "footer.about": "About Us",
     "footer.contact": "Contact Us",
-    "footer.copy": "(c) CIL 2026. All rights reserved.",
+    "footer.copy": "(c) Henry 2026. All rights reserved.",
     "form.success": "Thanks. Your quote request has been prepared."
   },
   zh: {
@@ -207,7 +207,7 @@ const translations = {
     "footer.links": "快速链接",
     "footer.about": "关于我们",
     "footer.contact": "联系我们",
-    "footer.copy": "(c) CIL 2026. 版权所有。",
+    "footer.copy": "(c) Henry 2026. 版权所有。",
     "form.success": "谢谢，您的报价请求已准备提交。"
   }
 };
